@@ -43,3 +43,9 @@ next-env.d.ts
 node_modules/
 dist/
 build/
+
+node_modules/
+.next/
+.env
+dist/
+build/
