@@ -1,34 +1,124 @@
-<<<<<<< HEAD
 # HireDx - Interview Rejection Analysis System
 
 Welcome to **HireDx** - built for DevClash 2026.
 
 ## 🚀 Overview
-Candidates finish interviews without knowing why they were rejected. HireDx is a platform where users upload or record interview audio and receive detailed AI-powered analysis of exactly why they likely got rejected.
 
-## 🛠️ Tech Stack
-- **Frontend**: Next.js 14+ (App Router), React, Tailwind CSS, shadcn/ui.
-- **Visualizations**: Recharts, Framer Motion, Lucide Icons.
-- **Backend**: Next.js Server API Routes.
-- **AI Integration**: Google Gemini 1.5 Pro (Direct Multimodal Audio Analysis replacing Whisper).
-- **Database & Auth**: Supabase (PostgreSQL).
+Candidates often complete interviews without understanding why they were rejected.  
+HireDx is an AI-powered interview analysis platform that helps users identify their weaknesses by analyzing interview audio recordings and providing detailed feedback.
 
-## 🏃‍♂️ Running the Hackathon Demo
-We have built a completely standalone **Demo Mode** UI so you can pitch the project to judges immediately without needing backend DBs configured.
+The system allows users to upload or record interview conversations and receive smart insights on communication skills, confidence, technical performance, and possible rejection reasons.
+
+---
+
+# ✨ Features
+
+- 🎤 Upload or Record Interview Audio
+- 🤖 AI-Powered Interview Analysis
+- 📊 Detailed Rejection Feedback
+- 🗣️ Communication & Confidence Analysis
+- 📈 Performance Insights Dashboard
+- 🔐 Secure User Authentication
+- ⚡ Fast and Responsive Interface
+- 🌐 Modern Web Application UI
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+
+## Backend
+- Node.js
+- Supabase
+
+## Database
+- PostgreSQL (Supabase)
+
+## Tools & Platforms
+- VS Code
+- GitHub
+
+---
+
+# 📁 Project Structure
 
 ```bash
-cd hiredx
+HireDx/
+│
+├── public/
+├── src/
+├── supabase/
+├── package.json
+├── tsconfig.json
+├── next.config.ts
+└── README.md
+```
+
+---
+
+# ⚙️ Installation Steps
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/HireDx.git
+```
+
+---
+
+## 2️⃣ Open Project Folder
+
+```bash
+cd HireDx
+```
+
+---
+
+## 3️⃣ Install Dependencies
+
+```bash
 npm install
+```
+
+---
+
+## 4️⃣ Run Development Server
+
+```bash
 npm run dev
 ```
-Open `http://localhost:3000`.
-Click "View Demo Analysis" or click "Sign In" on the Login page to directly access the populated Rejection Heatmap Dashboard!
 
-## 🔐 Wiring up the Backend
-1. Create a Supabase project and get your URL and Anon Key.
-2. Get your Google Gemini API Key from Google AI Studio.
-3. Copy `.env.example` to `.env.local` and add your keys.
-4. Run the SQL located in `supabase/migrations/0000_init.sql` in your Supabase SQL Editor to spawn the tables.
-=======
-# HireDx
->>>>>>> d7e4bef5aa99343a5d8dbd3604c1af311b4e73cd
+---
+
+# 🚀 Usage
+
+Open your browser and visit:
+
+```bash
+http://localhost:3000
+```
+
+---
+---
+
+# 👨‍💻 Team
+
+- Team HireDx
+
+
+---
+
+# 📄 License
+
+This project is developed for educational and hackathon purposes.
+
+---
+
+# ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub.
